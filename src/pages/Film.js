@@ -9,15 +9,17 @@ import {
 } from "react-router-dom";
 
 import Error from "./Error";
+import FilmHeader from "../components/FilmHeader";
+import FilmArticle from "../components/FilmArticle";
 
 import films from '../assets/film-data.json';
 
 function getFilmOfId(id) {
-	films.forEach(film => {
+	for (const film of films) {
 		if (film.id == id) {
 			return film;
 		}
-	});
+	}
 	return null;
 }
 
@@ -28,7 +30,12 @@ function Film(props) {
 	if (film == null) {
 		return <Error />;
 	}
-	return (<p>Film {id}.</p>);
+	return (
+		<main>
+		<FilmHeader data={film} />
+		<FilmArticle data={film} />
+		</main>
+		);
 }
 
 export default Film;

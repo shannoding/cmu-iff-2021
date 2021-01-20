@@ -1,4 +1,4 @@
-function FilmHeader(props) {
+function FilmAside(props) {
 	return (
 		<div className="film-header" style={{ backgroundImage: `url(${props.data.filmHeaderAsset})` }}>
                 <div className="main-film-info"><h1>{props.data.filmName}</h1>
@@ -8,4 +8,4 @@ function FilmHeader(props) {
 		);
 }
 
-export default FilmHeader;
+export default FilmAside;

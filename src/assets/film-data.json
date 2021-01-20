@@ -1,8 +1,24 @@
 [
 	{
 		"id": "america-street",
-		"uwu": "lorem",
-		"dowo": "duwu"
+		"filmName": "America Street",
+		"filmHeaderAsset": "lorem.png",
+		"director": "duwu",
+		"specs": "A | B | C",
+		"awards": [
+			"Academy Awards, 2020, Nominee for Best International Feature Film",
+			"Venice Film Festival, 2019, Best Film",
+			"French Syndicate of Cinema Critics, 2019, Critics Award, Best Foreign Film"
+		],
+		"reviewerQuote": "",
+		"reviewer": "",
+		"aboutFilmDesc": "What makes a neighborhood feel like home? And what happens to that feeling when the neighborhood is threatened by gentrification and horrific violence by outsiders?\nIdrissou Mora-Kpai explores these questions through a focus on the predominantly African-American neighborhood of East Side in Charleston, South Carolina. He gives particular attention to the efforts of corner-store owner, Joe Watson, and his allies to maintain a strong sense of solidarity in the face of poverty, looming displacement, and resurgent racist aggression. Filming over three months in 2015, Mora-Kpai not only illuminates the demanding daily work of community building but also provides an intimate perspective on two killings that brought national attention to the city. Joe Watson’s store is located on America Street, an apt name for a place long shaped by developments of vital significance well beyond the immediate focus of this film.",
+		"trailerLink": "",
+		"directorHeadshotAsset": "director.png",
+		"aboutDirectorDesc": "<b>Idrissou Mora-Kpai</b> is an award-winning filmmaker whose documentaries on post-colonial African societies, African migrations and diasporas have been screened at prestigious festivals around the world. Born in Benin, West Africa, in 1967, he graduated from Potsdam Babelsberg's Film University and lived in Germany and France for nearly twenty years. In 2013, he received the prestigious Dutch Prince Claus Award for his artistic achievements in promoting social change in the Global South. Having taught film production at Pitt for several years, he is now an Assistant Professor specializing in fiction and documentary production at Ithaca College in upstate New York.",
+		"letterboxdLink": "letterboxd",
+		"spotifyLink": "spot"
+
 	},
 	{
 		"id": "corpus-christi",
