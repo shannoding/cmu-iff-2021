@@ -8,11 +8,13 @@ import {
   useParams
 } from "react-router-dom";
 
+import '../styles/nav.scss';
+
 // <img src="../Assets/Index/CMU-IFF_Logo.svg" />
 
 function Nav() {
 	return (
-		<nav className="navbar navbar-expand-xl">
+		<nav id="nav" className="navbar navbar-expand-xl">
             <Link to="/" className="logo">
             </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

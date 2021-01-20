@@ -8,6 +8,7 @@ import {
 
 import About from "./pages/About";
 import Film from "./pages/Film";
+import Error from "./pages/Error";
 
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
@@ -44,7 +45,7 @@ function App() {
         </Route>
 
         <Route path="/">
-          <p>Error</p>
+          <Error />
         </Route>
 
       </Switch>
