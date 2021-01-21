@@ -1,10 +1,10 @@
-[
-	{
+{
+	"america-street": {
 		"id": "america-street",
 		"filmName": "America Street",
 		"filmHeaderAsset": "lorem.png",
-		"director": "duwu",
-		"specs": "A | B | C",
+		"director": "Idrissou Mora-Kpai",
+		"specs": "USA | 2019 | 74 min",
 		"awards": [
 			"Academy Awards, 2020, Nominee for Best International Feature Film",
 			"Venice Film Festival, 2019, Best Film",
@@ -16,29 +16,97 @@
 		"trailerLink": "",
 		"directorHeadshotAsset": "director.png",
 		"aboutDirectorDesc": "<b>Idrissou Mora-Kpai</b> is an award-winning filmmaker whose documentaries on post-colonial African societies, African migrations and diasporas have been screened at prestigious festivals around the world. Born in Benin, West Africa, in 1967, he graduated from Potsdam Babelsberg's Film University and lived in Germany and France for nearly twenty years. In 2013, he received the prestigious Dutch Prince Claus Award for his artistic achievements in promoting social change in the Global South. Having taught film production at Pitt for several years, he is now an Assistant Professor specializing in fiction and documentary production at Ithaca College in upstate New York.",
-		"letterboxdLink": "letterboxd",
-		"spotifyLink": "spot"
+		"additionalMaterial": {
+			"letterboxdLink": "letterboxd",
+			"spotifyLink": "spot",
+			"anchorLink": null
+		},
+		"screeningData": {
+			"dates": "Monday, December 14 - Sunday, December 20",
+			"redeemCodeDesc": "The first 50 people to register using the code <b>CMUIFF</b> will watch for free!",
+			"tinyRegistrationDesc": "You will need to register or log in to Row House's theater website to redeem/purchase tickets and watch the film.",
+			"registrationOpen": true,
+			"registrationOpenDate": "January 20",
+			"registrationLink": "https://rowhouse.vhx.tv/products/garbage-2019",
+			"ticketsClosed": true,
+			"almostliketrtTimes": {
+				"date": "Thursday, January 28th",
+				"screeningTime": "5pm",
+				"discussionTime": "7pm"
+			},
+			"discussionDesc": "The festival will host a FREE live discussion with Polish director Jan Komasa, director of the award-nominated film \"Corpus Christi\". The discussion will be moderated by Dr. Patricia Donohue, Adjunct Professor of Psychology at Chatham University, as well as Jolanta Lion, Assistant Director of CMU's Humanities Center and Director of the CMU International Film Festival. The discussion will be conducted virtually via Zoom.",
+			"discussionLink": "https://cmu.zoom.us/meeting/register/tJMvduyhqTgtE9QFy0GEIL99hKQCyVibK4T8",
+			"sponsorsDesc": "This event is organized in conjunction with Row House Cinema. The Corpus Christi screening and event are supported by The Humanities Scholars Program, CMU's Graduate Student Assembly, and the Polish Cultural Institute New York.",
+			"sponsors": [
+				{
+					"name": "The Humanities Scholars Program",
+					"link": "https://www.cmu.edu/dietrich/hsp/",
+					"logoAsset": "hspokboomer"
+				},
+				{
+					"name": "CMU Graduate Student Assembly",
+					"link": "https://www.cmu.edu/stugov/gsa/",
+					"logoAsset": "gsaokboomer"
+				}
+
+			]
+		}
 
 	},
-	{
-		"id": "corpus-christi",
-		"uwu1": "owo1",
-		"dowo1": "duwu1"
-	},
-	{
+	"garbage": {
 		"id": "garbage",
-		"uwu1": "owo1",
-		"dowo1": "duwu1"
-	},
-	{
-		"id": "push",
-		"uwu1": "owo1",
-		"dowo1": "duwu1"
-	},
-	{
-		"id": "sorry-we-missed-you",
-		"uwu1": "owo1",
-		"dowo1": "duwu1"
+		"filmName": "Garbage",
+		"filmHeaderAsset": "lorem.png",
+		"director": "Jose Muniain",
+		"specs": "USA | 2019 | 18 min",
+		"awards": [
+			"Cortada Short Film Festival, 2019, Audience Choice Award",
+			"Portland Short Fest, 2019, Best Actor Award",
+			"Miami Independent Film Festival, 2019, Semi-finalist"
+		],
+		"reviewerQuote": "",
+		"reviewer": "",
+		"aboutFilmDesc": "Garbage is about the misconceptions our society perpetrates about race and how those misconceptions can lead to conflict, violence and even death. Black and white Americans move in two different universes in the same country, which the two main characters of Garbage exemplify;, with the Black male seen as an instrument of death and the White woman as a symbol of purity and innocence. Through their interaction, and as their exchange becomes increasingly tense, the audience is taken on a journey that interrogates how white people in America sometimes don't even realize how they've been indoctrinated.",
+		"trailerLink": "https://www.youtube.com/embed/tilvt15QS7U",
+		"directorHeadshotAsset": "director.png",
+		"aboutDirectorDesc": "<b>Jose Muniain</b> an award-winning filmmaker from Bilbao, Spain. He has been living in Pittsburgh for twenty years. His work behind the camera has ranged from long- and short-form documentary to fiction. The subjects of his films typically involve either the creative process or film as a medium to discuss social responsibility.",
+		"additionalMaterial": {
+			"letterboxdLink": null,
+			"spotifyLink": "https://open.spotify.com/playlist/5zZHrFsS5TQUeDf6Eg5sQS?si=6BjTXXVdSCaEvFUVjXPZzA",
+			"anchorLink": "https://anchor.fm/cmufilmfestival"
+		},
+		"screeningData": {
+			"dates": "Monday, December 14 - Sunday, December 20",
+			"redeemCodeDesc": "The first 50 people to register using the code <b>CMUIFF</b> will watch for free!",
+			"tinyRegistrationDesc": "You will need to register or log in to Row House's theater website to redeem/purchase tickets and watch the film.",
+			"registrationOpen": true,
+			"registrationOpenDate": "January 20",
+			"registrationLink": "https://rowhouse.vhx.tv/products/garbage-2019",
+			"ticketsClosed": false,
+			"almostliketrtTimes": {
+				"date": "Thursday, January 28th",
+				"screeningTime": "5pm",
+				"discussionTime": "7pm"
+			},
+			"discussionDesc": "The festival will host a FREE live discussion with Polish director Jan Komasa, director of the award-nominated film \"Corpus Christi\". The discussion will be moderated by Dr. Patricia Donohue, Adjunct Professor of Psychology at Chatham University, as well as Jolanta Lion, Assistant Director of CMU's Humanities Center and Director of the CMU International Film Festival. The discussion will be conducted virtually via Zoom.",
+			"discussionLink": "https://cmu.zoom.us/meeting/register/tJMvduyhqTgtE9QFy0GEIL99hKQCyVibK4T8",
+			"sponsorsDesc": "This event is organized in conjunction with Row House Cinema. The Corpus Christi screening and event are supported by The Humanities Scholars Program, CMU's Graduate Student Assembly, and the Polish Cultural Institute New York.",
+			"sponsors": [
+				{
+					"name": "The Humanities Scholars Program",
+					"link": "https://www.cmu.edu/dietrich/hsp/",
+					"logoAsset": "hspokboomer"
+				},
+				{
+					"name": "CMU Graduate Student Assembly",
+					"link": "https://www.cmu.edu/stugov/gsa/",
+					"logoAsset": "gsaokboomer"
+				}
+
+			]
+		}
+		
+
 	}
 
-]
+}
