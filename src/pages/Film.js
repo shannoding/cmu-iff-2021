@@ -7,6 +7,7 @@ import {
   useRouteMatch,
   useParams
 } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 
 import Error from "./Error";
 import FilmHeader from "../components/FilmHeader";
@@ -28,6 +29,9 @@ function Film(props) {
 	}
 	return (
 		<main>
+		<Helmet>
+	      <title>{film.filmName}</title>
+	    </Helmet>
 		<FilmHeader data={film} />
 		<FilmArticle data={film} />
 		<FilmAside data={film.screeningData} filmName={film.filmName} />

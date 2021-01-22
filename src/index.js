@@ -4,9 +4,11 @@ import { BrowserRouter } from "react-router-dom";
 import parse from 'html-react-parser';
 
 
-import 'popper.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.js';
+// import 'bootstrap/dist/js/popper.min.js';
+//import 'bootstrap/dist/js/bootstrap.js';
+import $ from "jquery";
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import './index.css';
 import './styles/global.scss';

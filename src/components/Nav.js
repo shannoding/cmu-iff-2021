@@ -14,6 +14,74 @@ import '../styles/nav.scss';
 
 function Nav() {
 	return (
+		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+		  <div className="container-fluid">
+		    <Link to="/" className="navbar-brand">
+		    <img href="logo.png" />
+            </Link>
+		    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span className="navbar-toggler-icon"></span>
+		    </button>
+		    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+		      	<li className="nav-item dropdown">
+		          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            2020 Festival
+		          </a>
+		          <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
+		          	<li><Link className="dropdown-item" to="/films/garbage">Garbage</Link></li>
+                    <li><Link className="dropdown-item" to="/theme">Theme</Link></li>
+                    <li><Link className="dropdown-item" to="/schedule">Virtual Film Festival Schedule</Link></li>
+                    <li><Link className="dropdown-item" to="/sponsors">Sponsors</Link></li>
+                    <li><Link className="dropdown-item" to="/team">Team</Link></li>
+                    <li><Link className="dropdown-item" to="/news">News & Stories</Link></li>
+                    <li><Link className="dropdown-item" to="/sfc">Short Film Competition</Link></li>
+		          </ul>
+		        </li>
+
+		        <li className="nav-item dropdown">
+		          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            About Us
+		          </a>
+		          <ul className="dropdown-menu" aria-labelledby="navbarDropdown2">
+		            <li><Link className="dropdown-item" to="/about">Mission & History</Link></li>
+                    <li><Link className="dropdown-item" to="/previous_festivals">Previous Festivals</Link></li>
+                    <li><Link className="dropdown-item" to="/education">Education</Link></li>
+                    <li><Link className="dropdown-item" to="/contact">Contact</Link></li>
+		          </ul>
+		        </li>
+
+		        <li className="nav-item dropdown">
+		          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            Support Us
+		          </a>
+		          <ul className="dropdown-menu" aria-labelledby="navbarDropdown3">
+		            <li><Link className="dropdown-item" to="/sponsor">Sponsorship</Link></li>
+                    <li><Link className="dropdown-item" to="/ad_opportunities">Ad Opportunities</Link></li>
+		          </ul>
+		        </li>
+
+		        <li className="nav-item">
+                	<Link className="nav-link" to="/internships">Get Involved</Link>
+		        </li>
+
+		        <li className="nav-item">
+                    <a href="https://cmu.secure.force.com/pmtx/giftselect?id=a41f4000000eIV5,a41f4000000eHw6&appeal=A4700">
+                        <button className="btn btn-outline-success">Donate</button>
+                    </a>  
+                </li>
+                <li className="nav-item">
+                    <Link to="/tickets">
+                        <button className="btn btn-outline-success">Buy Tickets</button>
+                    </Link>  
+                </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+
+		);
+	return (
 		<nav id="nav" className="navbar navbar-expand-xl">
             <Link to="/" className="logo">
             </Link>

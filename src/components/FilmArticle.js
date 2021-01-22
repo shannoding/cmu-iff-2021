@@ -9,19 +9,19 @@ function getAdditionalMaterials(additionalObj) {
 		}
 		switch (add) {
 			case "letterboxdLink":
-				addMatList.push(<p>
+				addMatList.push(<p key={add}>
 	                <a href={link} target="_blank"><img src="/assets/icons/letterboxd.svg" className="icon-md" /></a>
 	                    Check out our <a href={link} target="_blank">review of the film on Letterboxd</a>!
 	                </p>);
 				break;
 			case "spotifyLink":
-				addMatList.push(<p>
+				addMatList.push(<p key={add}>
                 <a href={link} target="_blank"><img src="/assets/icons/spotify-green.png" className="icon-md" /></a>
                     Listen to our <a href={link} target="_blank">Spotify playlist</a> inspired by the film!
                 </p>);
                 break;
              case "anchorLink":
-             	addMatList.push(<p>
+             	addMatList.push(<p key={add}>
                 <a href="https://anchor.fm/cmufilmfestival" target="_blank"><img src="/assets/icons/anchor-logo.png" className="icon-md" /></a>
                     Listen to our <a href="https://anchor.fm/cmufilmfestival" target="_blank">podcast</a> to go behind the scenes with the film's creators.
                 </p>);
@@ -32,8 +32,8 @@ function getAdditionalMaterials(additionalObj) {
 }
 
 function FilmArticle(props) {
-	let awardsList = props.data.awards.map((award) => {
-		return (<li>{parse(award)}</li>);
+	let awardsList = props.data.awards.map((award, index) => {
+		return (<li key={index}>{parse(award)}</li>);
 	});
 
 	let addMatList = getAdditionalMaterials(props.data.additionalMaterial);
@@ -57,7 +57,7 @@ function FilmArticle(props) {
             <div>
                 <h2>Film Trailer</h2>
                 <div className="trailer-container">
-                    <iframe width="560" height="315" src={props.data.trailerLink} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src={props.data.trailerLink} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
             </div>
             <div>

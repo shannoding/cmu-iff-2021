@@ -2,7 +2,7 @@ import parse from 'html-react-parser';
 
 function getSponsorsList(sponsors) {
 	let sponsorsList = sponsors.map((sponsor) => {
-		return (<div className="sponsors">
+		return (<div className="sponsors" key={sponsor.name}>
                     <div>
                         <a href={sponsor.link} target="_blank">
                         <img src={sponsor.logo} alt={sponsor.name} />

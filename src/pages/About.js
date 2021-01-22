@@ -1,5 +1,14 @@
+import { Helmet } from 'react-helmet';
+
 function About() {
-	return (<p>About</p>);
+	return (
+		<div>
+		<Helmet>
+	      <title>About</title>
+	    </Helmet>
+		<p>About</p>
+		</div>
+		);
 }
 
 export default About;

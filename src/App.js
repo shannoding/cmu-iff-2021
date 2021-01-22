@@ -5,6 +5,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 
 import About from "./pages/About";
 import Film from "./pages/Film";
@@ -18,6 +19,9 @@ import logo from './logo.svg';
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <title>CMU International Film Festival</title>
+      </Helmet>
       <Nav />
       <Switch>
         <Route exact path="/about">
