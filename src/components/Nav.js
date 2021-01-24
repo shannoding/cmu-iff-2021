@@ -10,20 +10,20 @@ import {
 
 import '../styles/nav.scss';
 
-// <img src="../Assets/Index/CMU-IFF_Logo.svg" />
+import logo from "../assets/index/CMU-IFF_Logo.svg";
 
 function Nav() {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+		<nav className="navbar navbar-expand-lg navbar-light bg-light" id="nav">
 		  <div className="container-fluid">
 		    <Link to="/" className="navbar-brand">
-		    <img href="logo.png" />
+		    <img src={logo} alt="CMU IFF logo" />
             </Link>
 		    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		      <span className="navbar-toggler-icon"></span>
 		    </button>
 		    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-		      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+		      <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
 		      	<li className="nav-item dropdown">
 		          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 		            2020 Festival
@@ -67,12 +67,12 @@ function Nav() {
 
 		        <li className="nav-item">
                     <a href="https://cmu.secure.force.com/pmtx/giftselect?id=a41f4000000eIV5,a41f4000000eHw6&appeal=A4700">
-                        <button className="btn btn-outline-success">Donate</button>
+                        <button className="btn btn-primary" type="button">Donate</button>
                     </a>  
                 </li>
                 <li className="nav-item">
                     <Link to="/tickets">
-                        <button className="btn btn-outline-success">Buy Tickets</button>
+                        <button className="btn btn-primary" type="button">Buy Tickets</button>
                     </Link>  
                 </li>
 		      </ul>

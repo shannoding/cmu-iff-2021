@@ -4,7 +4,8 @@ import { BrowserRouter } from "react-router-dom";
 import parse from 'html-react-parser';
 
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/custom-bootstrap.scss';
 // import 'bootstrap/dist/js/popper.min.js';
 //import 'bootstrap/dist/js/bootstrap.js';
 import $ from "jquery";

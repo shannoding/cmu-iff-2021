@@ -1,0 +1,18 @@
+@import './_base.scss';
+
+#footer {
+	background-color: $primary-color;
+	.row {
+		max-width:100%;
+		margin:0;
+	}
+
+	ul.footerSublinkContainer {
+		padding:0;
+	}
+
+	ul.footerSublinkContainer > li {
+		list-style-type:none;
+	}
+
+}

@@ -8,28 +8,32 @@ import {
   useParams
 } from "react-router-dom";
 
+import '../styles/footer.scss';
+
+import fbicon from "../assets/icons/FacebookIcon.png";
+import instaicon from "../assets/icons/InstaIcon.png";
+import twittericon from "../assets/icons/TwitterIcon.png";
+
 function Footer(props) {
 
 	return (
-		<footer>
+		<footer id="footer">
             <div className="row">
                 <div className="col-sm-12 col-md-12 col-lg-5">
-                    <p className="footer-title">Connect With Us</p>
-                    <p className="footer-body">
-                        Stay updated on early discounts, special events, and upcoming films!
-                    </p>
+                    <h3>Connect With Us</h3>
+                    <p>Stay updated on early discounts, special events, and upcoming films!</p>
                     <a href="http://lb.benchmarkemail.com//listbuilder/signupnew?7PVqr1DZMmC1N1wrbOhu%252FKjeOq6S3efoZZRe6SX02HP5mj5OqPbK3uMzIjNtMjwz">
-                        <button className="footer-btn grow">Sign up for our newsletter!</button>
+                        <button className="btn btn-outline-primary footer-btn grow" type="button">Sign up for our newsletter!</button>
                     </a>
                     <div className="icon-row">
                         <a href="https://www.facebook.com/cmufaces" className="footer-icon-container">
-                            <img className="footer-icon" src="../Assets/Footer/fb-icon.svg" />
+                            <img className="footer-icon" src={fbicon} />
                         </a>
                         <a href="https://www.instagram.com/cmuintlfilmfest/" className="footer-icon-container">
-                            <img className="footer-icon" src="../Assets/Footer/insta-icon.svg" />
+                            <img className="footer-icon" src={instaicon} />
                         </a>
                         <a href="https://twitter.com/cmu_faces" className="footer-icon-container">
-                            <img className="footer-icon" src="../Assets/Footer/twitter-icon.svg" />
+                            <img className="footer-icon" src={twittericon} />
                         </a>
                     </div>
                 </div>
@@ -100,15 +104,15 @@ function Footer(props) {
 					</div>
                 </div>
             </div>
-            <p className="footer-subtitle">© 2021 Carnegie Mellon International Film Festival</p>
+            <p>© 2021 Carnegie Mellon International Film Festival</p>
         </footer>
 		);
 
 
 	return (
-		<footer>
+		<footer id="footer">
             <div className="row">
-                <div className="col-sm-12 col-md-12 col-lg-5">
+                <div className="col col-sm-12 col-md-12 col-lg-5">
                     <p className="footer-title">Connect With Us</p>
                     <p className="footer-body">
                         Stay updated on early discounts, special events, and upcoming films!
@@ -128,7 +132,7 @@ function Footer(props) {
                         </a>
                     </div>
                 </div>
-                <div className="col-sm-12 col-md-4 col-lg-3">
+                <div className="col col-sm-12 col-md-4 col-lg-3">
                     <button className="footer-title footer-dropdown">2020 Festival</button>
                     <ul className="footerSublinkContainer">
                         <li><Link className="footer-link" to="/films/garbage">Garbage</Link></li>
@@ -140,7 +144,7 @@ function Footer(props) {
                         <li><Link className="footer-link" to="/sfc">Short Film Competition</Link></li>
                     </ul>
                 </div>
-                <div className="col-sm-12 col-md-4 col-lg-2">
+                <div className="col col-sm-12 col-md-4 col-lg-2">
                     <button className="footer-title footer-dropdown">About</button>
                     <ul className="footerSublinkContainer">
                         <li><Link to="/about" className="footer-link">Mission & History</Link></li>
@@ -149,7 +153,7 @@ function Footer(props) {
                         <li><Link to="/contact" className="footer-link">Contact</Link></li>     
                     </ul>             
                 </div>
-                <div className="col-sm-12 col-md-4 col-lg-2">
+                <div className="col col-sm-12 col-md-4 col-lg-2">
                     <button className="footer-title footer-dropdown">Support</button>
                     <ul className="footerSublinkContainer">
                         <li><Link to="/sponsor" className="footer-link">Sponsorship</Link></li>
