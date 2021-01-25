@@ -14,6 +14,8 @@ import FilmHeader from "../components/FilmHeader";
 import FilmArticle from "../components/FilmArticle";
 import FilmAside from "../components/FilmAside";
 
+import '../styles/films.scss';
+
 import films from '../assets/film-data.json';
 
 function getFilmOfId(id) {
@@ -28,7 +30,7 @@ function Film(props) {
 		return <Error />;
 	}
 	return (
-		<main>
+		<main id="films">
 		<Helmet>
 	      <title>{film.filmName}</title>
 	    </Helmet>
