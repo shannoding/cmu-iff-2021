@@ -2,9 +2,16 @@
 
 #footer {
 	background-color: $primary-color;
+	color:white;
+
+	position:relative;
+	bottom:0;
+
+	padding:1rem 0;
+
 	.row {
 		max-width:100%;
-		margin:0;
+		margin:1rem 0;
 	}
 
 	ul.footerSublinkContainer {
@@ -13,6 +20,61 @@
 
 	ul.footerSublinkContainer > li {
 		list-style-type:none;
+	}
+
+	.footer-btn {
+		color:$primary-color;
+
+	}
+
+	.icon-row {
+		margin:1rem 0;
+	}
+
+	.footer-icon {
+		margin-right:1rem;
+	}
+
+	.footer-link {
+		color:white;
+	}
+
+	.footer-box {
+		padding:1rem 0.5rem;
+	}
+
+	.accordian-item {
+		border:none;
+	}
+
+	.accordion-button {
+		background:transparent !important;
+		color:white;
+		border:inherit;
+		font-size:inherit;
+		padding:0.5rem;
+		padding-top:1rem;
+		white-space: nowrap;
+	}
+
+	.accordion-button::after {
+		background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+	}
+	.accordion-button:not(.collapsed)::after {
+		background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+	}
+
+	.accordion-collapse {
+		border:inherit;
+	}
+	
+	.accordion-body {
+		padding:1rem 0.5rem;
+		border:none;
+	}
+
+	> p {
+		text-align:center;
 	}
 
 }
