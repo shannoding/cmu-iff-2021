@@ -2,7 +2,7 @@
 	"america-street": {
 		"id": "america-street",
 		"filmName": "America Street",
-		"filmHeaderAsset": "lorem.png",
+		"filmHeaderAsset": "/assets/films/america-street-still.jpg",
 		"director": "Idrissou Mora-Kpai",
 		"specs": "USA | 2019 | 74 min",
 		"awards": [
@@ -10,8 +10,8 @@
 			"Venice Film Festival, 2019, Best Film",
 			"French Syndicate of Cinema Critics, 2019, Critics Award, Best Foreign Film"
 		],
-		"reviewerQuote": "",
-		"reviewer": "",
+		"reviewerQuote": null,
+		"reviewer": null,
 		"aboutFilmDesc": "What makes a neighborhood feel like home? And what happens to that feeling when the neighborhood is threatened by gentrification and horrific violence by outsiders?\nIdrissou Mora-Kpai explores these questions through a focus on the predominantly African-American neighborhood of East Side in Charleston, South Carolina. He gives particular attention to the efforts of corner-store owner, Joe Watson, and his allies to maintain a strong sense of solidarity in the face of poverty, looming displacement, and resurgent racist aggression. Filming over three months in 2015, Mora-Kpai not only illuminates the demanding daily work of community building but also provides an intimate perspective on two killings that brought national attention to the city. Joe Watson’s store is located on America Street, an apt name for a place long shaped by developments of vital significance well beyond the immediate focus of this film.",
 		"trailerLink": "",
 		"directorHeadshotAsset": "director.png",

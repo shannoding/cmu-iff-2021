@@ -6,7 +6,7 @@
 
 
 	.film-header {
-	  width: 100vw;
+	  width: 100%;
 	  padding-bottom:2rem;
 	  padding-top:30vh;
 	  background: #AAA;
@@ -41,6 +41,7 @@
 
 	  ul, ol {
 	  	margin-left:20px;
+	  	padding-left:0;
 	  }
 
 	  blockquote {

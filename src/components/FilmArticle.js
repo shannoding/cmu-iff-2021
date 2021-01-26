@@ -1,6 +1,7 @@
 import parse from 'html-react-parser';
 
 function getAdditionalMaterials(additionalObj) {
+	// additionalObj is the additional materials array
 	let addMatList = [];
 	for (const add in additionalObj) {
 		let link = additionalObj[add];
@@ -31,6 +32,22 @@ function getAdditionalMaterials(additionalObj) {
 	return addMatList;
 }
 
+function getReviewerQuote(quote, reviewer) {
+	if (quote == null) {
+		return "";
+	}
+	if (reviewer == null) {
+		return <div className="reviewer-quote"><blockquote>{parse(quote)}</blockquote></div>;
+	}
+	return (<div className="reviewer-quote">
+		<blockquote>
+            {parse(quote)}
+            <span>{parse(reviewer)}</span>
+    </blockquote></div>
+                    );
+
+}
+
 function FilmArticle(props) {
 	let awardsList = props.data.awards.map((award, index) => {
 		return (<li key={index}>{parse(award)}</li>);
@@ -38,17 +55,13 @@ function FilmArticle(props) {
 
 	let addMatList = getAdditionalMaterials(props.data.additionalMaterial);
 
+	let reviewerQuote = getReviewerQuote(props.data.reviewerQuote, props.data.reviewer);
 
 	return (
 		<article>
                 <div>
                     <h2>About the Film</h2>
-                    <div className="reviewer-quote">
-                    <blockquote>
-                        {parse(props.data.reviewerQuote)}
-                        <span>{parse(props.data.reviewer)}</span>
-                    </blockquote>
-                    </div>
+                    {reviewerQuote}
                     <p>
                         {parse(props.data.aboutFilmDesc)}
                     </p>
